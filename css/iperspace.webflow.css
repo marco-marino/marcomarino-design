@@ -88,6 +88,7 @@ a {
   position: absolute;
   left: 50%;
   top: 50%;
+  width: 100%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -2066,6 +2067,9 @@ html.w-mod-js *[data-ix="modal-interaction"] {
     font-size: 58px;
     line-height: 48px;
     letter-spacing: -2px;
+  }
+  .title-project-one.coming-soon {
+    font-size: 30px;
   }
   .cont-lab {
     position: relative;
