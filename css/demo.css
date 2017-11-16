@@ -1,73 +1,38 @@
-/* Header */
-.codrops-header {
-	text-align: left;
-	height: 100vh;
-	overflow: hidden;
-	background: url(../images/home.png) no-repeat center center;
-	background-size: auto 100vh;
+.scene {
+	background: #000000;
 }
 
-.hero {
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	overflow: hidden;
+.scene path:first-child {
+	fill: #171819;
 }
 
-.hero__imgwrap {
-	position: relative;
+.scene path:nth-child(2) {
+	fill: #121212;
+}
+
+.scene path:nth-child(3) {
+	fill: #0F0F0F;
+}
+
+.scene path:nth-child(4) {
+	fill: #121212;
+}
+
+.scene path:nth-child(5) {
+	fill: #0F0F0F;
+}
+
+.scene path:nth-child(6) {
+	fill: #171819;
+}
+
+.scene path:nth-child(7) {
+	fill: #0F0F0F;
+}
+
+.content-waves{
 	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-
-.hero__imgwrap::after {
-	content: '';
-	position: absolute;
-	background: rgba(76,0,1,0.1);
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-}
-
-.hero__img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: auto;
 	height: 100vh;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
-
-.hero__imgwrap .tilt__back,
-.hero__imgwrap .tilt__front {
-	background-size: auto 100vh;
-}
-
-@media screen and (min-aspect-ratio: 1440/960) {
-	.hero__imgwrap .tilt__back,
-	.hero__imgwrap .tilt__front,
-	.codrops-header {
-		background-size: 100vw auto;
-	}
-	.hero__img {
-		width: 100vw;
-		height: auto;
-	}
-}
-
-@media screen and (max-width: 40em){
-	.hero {
-		left: 0px;
-		bottom: 0px;
-		right: 0px;
-		top: 0px;
-	}
-
-}
-
