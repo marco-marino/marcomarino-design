@@ -2,13 +2,13 @@
 
 .awwwards{
 	position: absolute;
-	top: 20px;
+	top: 70px;
 	width: 90px;
 	height: 135px;
 	text-indent: -666em;
 	overflow: hidden;
 	z-index: 999;
-	background-image: url(../images/ribbons/awwwards_nominee_black_left.png);
+	background-image: url(../images/ribbons/awwwards_nominee.png);
 
 	-webkit-transition: all 1s ease;
     transition: all 1s ease; 
